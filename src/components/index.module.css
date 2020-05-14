@@ -39,6 +39,7 @@
 }
 
 .previews img {
+  flex: 1 0 auto;
   border-radius: 1rem;
   margin: 0 0.5rem 0 0;
   width: 230px;

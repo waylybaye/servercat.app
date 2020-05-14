@@ -45,18 +45,18 @@ const IndexPage = () => (
     <h2 className={styles.h2}>Screenshots</h2>
     <div className={styles.previews}>
       <img
-        // width={320 height=694
+        width={230} height={497}
         src="https://is5-ssl.mzstatic.com/image/thumb/Purple113/v4/92/28/0d/92280d9f-a9f6-0e39-dbf2-f671a62c8458/pr_source.png/600x0w.png"
         alt=""/>
       <img
-        // width=320 height=694
+        width={230} height={497}
         src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/c2/05/c4/c205c4fc-637d-8eee-ad65-dd1535bcd0ad/pr_source.png/600x0w.png"
         alt=""/>
       <img
-        // width=320 height=694
+        width={230} height={497}
         src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/51/34/2c/51342c24-3d60-aef7-28be-11e41c4b470a/pr_source.png/600x0w.png"/>
       <img
-        // width=320 height=694
+        width={230} height={497}
         src="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/46/f1/04/46f104c8-ea37-b8ac-f2ba-61f6d42e1bf9/pr_source.png/600x0w.png"/>
     </div>
   </Layout>
