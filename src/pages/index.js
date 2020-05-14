@@ -8,6 +8,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import styles from "../components/index.module.css"
 import QRCode from "react-qr-code"
+import "normalize.css"
 
 
 const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023&ct=website"
