@@ -7,3 +7,4 @@ title: "ServerCat 文档"
 ## 目录
 
 * [服务器性能指标说明](/zh/docs/facts)
+* [群晖的说明](/zh/docs/servers)
