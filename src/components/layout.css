@@ -39,6 +39,13 @@ body {
   /*font-family: var(--monospace-font);*/
 }
 
+code,
+kbd,
+samp {
+  font-family: var(--monospace-font) !important;
+  font-size: 1em;
+}
+
 
 h1 {
   letter-spacing: 1px;
@@ -61,4 +68,13 @@ article h3 {
 article p {
   color: var(--secondary-color);
   font-size: 0.9rem;
+}
+
+article pre {
+  display: inline-block;
+  font-family: var(--monospace-font);
+  background: var(--primary-color);
+  color: var(--background-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }

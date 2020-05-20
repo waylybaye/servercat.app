@@ -1,14 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import AwesomeSlider from "react-awesome-slider"
+import "normalize.css"
 import "react-awesome-slider/dist/styles.css"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import styles from "../components/index.module.css"
 import QRCode from "react-qr-code"
-import "normalize.css"
 
 
 const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023&ct=website"
