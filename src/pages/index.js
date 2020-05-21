@@ -8,7 +8,7 @@ import styles from "../components/index.module.css"
 import QRCode from "react-qr-code"
 
 
-const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023&ct=website"
+const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023?ct=website"
 const IndexPage = () => (
   <Layout>
     <SEO title="ServerCat - Server status and SSH client for iOS"/>
