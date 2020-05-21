@@ -62,12 +62,13 @@ article h2 {
 
 article h3 {
   font-size: 1rem;
-  margin: 0 0 0.5rem;
+  margin: 1rem 0 0.5rem;
 }
 
 article p {
   color: var(--secondary-color);
   font-size: 0.9rem;
+  margin: 0 0 0.5rem;
 }
 
 article pre {
