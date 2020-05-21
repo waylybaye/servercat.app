@@ -26,7 +26,7 @@ ServerCat 大部分数据依赖 Linux 内核的 <code>/proc</code> 子系统，�
 
 HyperApp 是作者开发的一个自动安装应用的 iOS App，主要定位是「Linux 的 AppStore」，
 自带了预配置的一些应用（Docker 镜像），来帮助用户"一键"部署应用。
-但由于某些原因导致其在中国区 App Store 不可用。
+但由于某些不可抗力导致其在中国区 App Store（永远）不可用。
 
 iOS 13 发布后，换用 Swift 语言和最新的 SwiftUI 完全重写开发了 ServerCat。
 鉴于 HyperApp 的遭遇，ServerCat 不再提供预配置的应用部署服务，定位于专业的监控和运维工具。
