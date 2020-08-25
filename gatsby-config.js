@@ -71,14 +71,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: "G-6P0C5XJ5SF",
+        // trackingId: "G-6P0C5XJ5SF",
+        trackingId: "UA-161224840-1",
         anonymize: true,
         head: true,
-        trackingIds: [
-          "G-6P0C5XJ5SF", // Google Analytics / GA
-          // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
-        ],
       },
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
