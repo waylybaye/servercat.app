@@ -13,6 +13,16 @@ ServerCat 通过 SSH 直接读取 Linux 的 <code>/proc</code> 文件系统来�
 
 ServerCat 大部分数据依赖 Linux 内核的 <code>/proc</code> 子系统，在其它平台上由于没有同类的内核统计机制，暂时无法显示所有指标。
 
+### macOS 如何使用 Docker？
+
+docker 和 homebrew 安装的应用一般都在 `/usr/local/bin` 下面（你可以运行 which docker 来验证），但 SSH 登录时的默认环境变量 PATH 并不包含此路径，所以需要改下 sshd 的配置。
+
+1. sudo vi /etc/ssh/sshd_config
+2. 找到 PermitUserEnvironment 这一行，删掉前面的注释# 并且改成 PermitUserEnvironment yes
+3. vi ~/.ssh/environment 添加一行 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin 设置 PATH 变量
+4. sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist 关闭 sshd
+5. sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist 重新开启 sshd
+
 
 ### 我的数据安全吗？
 
