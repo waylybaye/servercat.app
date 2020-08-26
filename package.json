@@ -17,6 +17,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.3.1",
     "gatsby-plugin-sharp": "^2.6.1",
+    "gatsby-plugin-sitemap": "^2.4.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-images": "^3.3.2",
     "gatsby-source-filesystem": "^2.3.1",

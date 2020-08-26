@@ -2,9 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `ServerCat`,
     description: `Server status, docker management and ssh terminal `,
-    author: `@waylybaye`
+    author: `@waylybaye`,
+    siteUrl: `https://servercat.app`,
   },
   plugins: [
+    // `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -76,9 +78,15 @@ module.exports = {
         anonymize: true,
         head: true,
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000
+      }
+    }
   ]
 }
