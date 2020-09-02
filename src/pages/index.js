@@ -11,14 +11,14 @@ import QRCode from "react-qr-code"
 const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023?ct=website"
 const IndexPage = () => (
   <Layout>
-    <SEO title="ServerCat - Server status and SSH client for iOS"/>
+    <SEO title="ServerCat - Server status and SSH client app for iOS"/>
 
     <br/>
 
     <div>
       <h1 style={{ letterSpacing: 1, marginBottom: "1rem"}}>ServerCat</h1>
       <p className={styles.slogan}>
-        > Server Status, Docker Management and SSH client.
+        > Server Status, Docker Management and SSH client for iOS.
       </p>
     </div>
 
