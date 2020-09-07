@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `ServerCat`,
-    description: `Server status, docker management and ssh terminal `,
+    description: `Linux server status, docker management and ssh client for iOS `,
     author: `@waylybaye`,
     siteUrl: `https://servercat.app`,
   },
@@ -31,7 +31,6 @@ module.exports = {
     // },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    // `gatsby-transformer-remark`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -48,6 +47,32 @@ module.exports = {
         ],
       },
     },
+    // {
+    //   resolve: 'gatsby-plugin-i18n',
+    //   options: {
+    //     langKeyDefault: 'en',
+    //     useLangKeyLayout: false,
+    //     pagesPaths: [`${__dirname}/docs`],
+    //     prefixDefault: true,
+    //     markdownRemark: {
+    //       postPage: 'src/templates/docTemplate.js',
+    //       query: `
+    //         {
+    //           allMarkdownRemark {
+    //             edges {
+    //               node {
+    //                 fields {
+    //                   slug,
+    //                   langKey
+    //                 }
+    //               }
+    //             }
+    //           }
+    //         }
+    //       `
+    //     }
+    //   }
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
