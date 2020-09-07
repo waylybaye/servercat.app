@@ -1,5 +1,5 @@
 ---
-path: "/zh/docs/facts"
+slug: "/zh/docs/facts"
 date: "2019-05-04"
 title: "ServerCat 指标说明"
 ---

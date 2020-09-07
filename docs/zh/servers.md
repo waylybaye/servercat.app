@@ -1,5 +1,5 @@
 ---
-path: "/zh/docs/servers"
+slug: "/zh/docs/servers"
 date: "2019-05-04"
 title: "群晖服务器的连接和监控"
 ---

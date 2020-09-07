@@ -1,5 +1,5 @@
 ---
-path: "/zh/docs"
+slug: "/zh/docs"
 date: "2019-05-04"
 title: "ServerCat 文档"
 ---

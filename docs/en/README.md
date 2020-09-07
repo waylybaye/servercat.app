@@ -1,5 +1,5 @@
 ---
-path: "/en/docs"
+slug: "/en/docs"
 date: "2019-05-04"
 title: "文档"
 ---

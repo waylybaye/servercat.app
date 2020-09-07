@@ -1,5 +1,5 @@
 ---
-path: "/zh/faq"
+slug: "/zh/faq"
 date: "2019-05-04"
 title: "ServerCat FAQ"
 ---
