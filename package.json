@@ -12,6 +12,7 @@
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-google-gtag": "^2.1.10",
     "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-manifest": "^2.4.2",
     "gatsby-plugin-offline": "^3.2.1",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
