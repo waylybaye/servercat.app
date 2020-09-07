@@ -23,11 +23,11 @@ const Header = ({ siteTitle }) => (
            alt=""/>
     </Link>
 
-    <Link to={"/zh/docs"}>
+    <Link to={"/en/docs"}>
       Docs
     </Link>
 
-    <Link to={"/zh/faq"}>
+    <Link to={"/en/faq"}>
       FAQ
     </Link>
   </div>

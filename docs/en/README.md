@@ -1,7 +1,7 @@
 ---
 slug: "/en/docs"
 date: "2019-05-04"
-title: "文档"
+title: "ServerCat Document"
 ---
 
 ## 目录

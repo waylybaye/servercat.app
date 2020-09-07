@@ -1,0 +1,10 @@
+.langLink {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.langLink:global(.active) {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
