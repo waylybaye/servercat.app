@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="ServerCat - Server status and SSH client app for iOS"/>
 
     <Helmet>
-      <meta name="apple-itunes-app" content="app-id=1501532023, app-clip-bundle-id=tech.baye.servercat.Clip, affiliate-data=myAffiliateData, app-argument=myAppArgument">
+      <meta name="apple-itunes-app" content="app-id=1501532023, app-clip-bundle-id=tech.baye.servercat.Clip, affiliate-data=myAffiliateData, app-argument=myAppArgument"/>
      </Helmet>
 
     <br/>
