@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
 import "normalize.css"
 import "react-awesome-slider/dist/styles.css"
@@ -12,6 +13,10 @@ const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023?ct=web
 const IndexPage = () => (
   <Layout>
     <SEO title="ServerCat - Server status and SSH client app for iOS"/>
+
+    <Helmet>
+      <meta name="apple-itunes-app" content="app-id=1501532023, app-clip-bundle-id=tech.baye.servercat.Clip, affiliate-data=myAffiliateData, app-argument=myAppArgument">
+     </Helmet>
 
     <br/>
 
