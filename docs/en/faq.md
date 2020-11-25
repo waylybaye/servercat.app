@@ -22,3 +22,7 @@ Data is stored locally in the App Sandbox and sensitive information (keys and pa
 
 Data syncs using Apple iCloud, and the data - which is also AES-encrypted - goes directly to the iCloud server, 
 not through any third-party servers.
+
+### Does ServerCat need root permission
+
+NO, We get information from `/proc` and `docker commands`, so you only need to be one of `docker` group.
