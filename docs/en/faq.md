@@ -4,25 +4,24 @@ date: "2020-09-04"
 title: "ServerCat FAQ"
 ---
 
-### How does ServerCat work and will the program be installed on the server?
+### How does ServerCat work and do you install any program on the server?
 
-ServerCat uses SSH to read the Linux <code>/proc</code> file system directly to get the status of the system.
-It does not rely on any third-party tools and does not install any programs on the server.
+ServerCat uses SSH to read the Linux <code>/proc</code> file system to get the status of the system. It does not install any programs on your servers and doesn't rely on any third-party tools.
+
 
 ### Why can't I see the status of macOS/FreeBSD/***?
 
-ServerCat relies on the Linux kernel's <code>/proc</code> subsystem for most of its data, 
-and is temporarily unable to display all metrics on other platforms due to the lack of a similar kernel statistics mechanism.
+ServerCat relies on the Linux kernel's <code>/proc</code> subsystem for most of its data, and is temporarily unable to display all metrics on other platforms 
 
-### Is my data safe?
 
-Data is stored locally in the App Sandbox and sensitive information (keys and passwords) is stored AES-encrypted.
+### Does ServerCat need root permission?
 
-### Is data synchronization secure?
+NO, normal users will work. If you want docker works the user need to be one of `docker` group.
 
-Data syncs using Apple iCloud, and the data - which is also AES-encrypted - goes directly to the iCloud server, 
-not through any third-party servers.
 
-### Does ServerCat need root permission
+## Privacy
 
-NO, We get information from `/proc` and `docker commands`, so you only need to be one of `docker` group.
+### Will my data leave my device ?
+
+1. All data are stored locally, we don't upload any data to our servers.
+2. Synchronization uses Apple iCloud, the data goes directly to the iCloud server.
