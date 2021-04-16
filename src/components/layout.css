@@ -4,9 +4,6 @@ html {
 }
 
 :root {
-  /*--background-color: #000;*/
-  /*--secondary-background-color: #222;*/
-  /*--primary-color: #fff;*/
   --secondary-color: #888;
   --accent-color: orange;
 
@@ -15,12 +12,21 @@ html {
   --primary-color: #000;
 
   --font-family: "Roboto", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --title-font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --monospace-font: "DM Mono", "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  "Liberation Mono", Menlo, Courier, monospace;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #222;
+    --secondary-background-color: #222;
+    --primary-color: #fff;
+  }
+}
+
 
 h1, h2, h3, h4, h5, h5 {
   font-family: var(--title-font-family);
@@ -78,4 +84,14 @@ article pre {
   color: var(--background-color);
   padding: 1rem;
   border-radius: 0.5rem;
+}
+
+a, a:visited {
+  color: var(--primary-color);
+  /*border-color: var(--accent-color);*/
+  /*border-bottom: 1px solid var(--accent-color);*/
+  /*text-decoration: none;*/
+  text-decoration-color: var(--accent-color);
+  text-underline-position: under;
+
 }

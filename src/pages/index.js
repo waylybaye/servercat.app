@@ -9,10 +9,11 @@ import styles from "../components/index.module.css"
 import QRCode from "react-qr-code"
 
 
-const appStoreUrl = "https://apps.apple.com/us/app/servercat/id1501532023?ct=website"
+const appStoreUrl = "https://apps.apple.com/app/apple-store/id1501532023?pt=118260435&ct=web&mt=8"
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="ServerCat - Server status and SSH client app for iOS"/>
+    <SEO title="ServerCat - Server Status and SSH Client app for iOS"/>
 
     <Helmet>
       <meta name="apple-itunes-app" content="app-id=1501532023, app-clip-bundle-id=tech.baye.servercat.Clip, affiliate-data=myAffiliateData, app-argument=myAppArgument"/>
@@ -38,7 +39,7 @@ const IndexPage = () => (
       </div>
       &nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;
-      <div>
+      <div style={{width: 80, height: 80}}>
         <QRCode value={appStoreUrl} size={80} style={{ justifySelf: "flex-end" }}/>
       </div>
     </div>
