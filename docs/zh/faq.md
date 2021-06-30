@@ -10,9 +10,24 @@ ServerCat 通过 SSH 直接读取 Linux 的 <code>/proc</code> 文件系统来�
 
 不依赖任何第三方工具，也不会在服务器上安装任何程序。
 
-### 为何无法显示 macOS/FreeBSD/*** 的运行状态？
 
-ServerCat 大部分数据依赖 Linux 内核的 <code>/proc</code> 子系统，在其它平台上由于没有同类的内核统计机制，暂时无法显示所有指标。
+### 为何 macOS/FreeBSD/Unix 的部分运行状态无法获取？
+
+ServerCat 大部分数据依赖 Linux 内核的 <code>/proc</code> 子系统，在其它平台上由于没有同类的内核统计机制，所以无法显示所有指标。
+
+
+### 我的数据安全吗？
+
+数据保存在本地的 App 沙盒中，敏感信息（Key 和密码）会用 AES 加密保存。
+
+
+### 数据同步安全吗？
+
+数据同步使用 iCloud 的服务，数据直接传到 iCloud 服务器上，不会经过任何第三方服务器。
+
+
+---- 
+
 
 ### macOS 如何使用 Docker？
 
@@ -23,15 +38,6 @@ docker 和 homebrew 安装的应用一般都在 `/usr/local/bin` 下面（你可
 3. vi ~/.ssh/environment 添加一行 PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin 设置 PATH 变量
 4. sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist 关闭 sshd
 5. sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist 重新开启 sshd
-
-
-### 我的数据安全吗？
-
-数据保存在本地的 App 沙盒中，敏感信息（Key 和密码）会用 AES 加密保存。
-
-### 数据同步安全吗？
-
-数据同步使用 Apple iCloud 的服务，数据直接传到 iCloud 服务器上，不会经过任何第三方服务器。
 
 
 ----
