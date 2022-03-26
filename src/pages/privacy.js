@@ -10,7 +10,7 @@ export default function PrivacyPage() {
       <div>
         <h1 style={{ letterSpacing: 1, marginBottom: "1rem"}}>Privacy Policy</h1>
 
-        <h2>Will my data leave my device? </h2>
+        <h2>Will my personal data leave my device? </h2>
         <ol>
           <li>
             All data are stored locally, we don't upload any data to our servers.
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <h2> Data Collected by ServerCat </h2>
 
         <p>
-          We use firebase to track basic usages, such as daily active users and purchases.
+          We use firebase to track usage data, these data are not related to your personal identifiers.
         </p>
       </div>
     </Layout>
