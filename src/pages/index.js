@@ -24,7 +24,7 @@ const IndexPage = () => (
     <div>
       <h1 style={{ letterSpacing: 1, marginBottom: "1rem"}}>ServerCat</h1>
       <p className={styles.slogan}>
-        > Server Status, Docker Management and SSH client for iOS.
+        > Server Status, Docker Management and SSH client for iOS/macOS.
       </p>
     </div>
 
