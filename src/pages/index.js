@@ -13,11 +13,11 @@ const appStoreUrl = "https://apps.apple.com/app/apple-store/id1501532023?pt=1182
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="ServerCat - Server Status and SSH Client app for iOS"/>
+    <SEO title="ServerCat - server status and SSH client for iOS/macOS"/>
 
     <Helmet>
-      <meta name="apple-itunes-app" content="app-id=1501532023, app-clip-bundle-id=tech.baye.servercat.Clip, affiliate-data=myAffiliateData, app-argument=myAppArgument"/>
-     </Helmet>
+      <meta name="apple-itunes-app" content="app-id=1501532023"/>
+    </Helmet>
 
     <br/>
 
